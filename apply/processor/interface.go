@@ -19,7 +19,7 @@ import (
 )
 
 type Interface interface {
-	// Execute :according to the different of desired cluster to do cluster apply.
+	// Execute :according to the definition of desired cluster to do cluster apply.
 	Execute(cluster *v2.Cluster) error
 }
 
